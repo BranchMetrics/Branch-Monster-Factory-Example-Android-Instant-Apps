@@ -1,4 +1,4 @@
-Branchster-Android (Instant App Enabled)
+Branchster Android (Instant App Enabled)
 ==================
 ## Introduction
 
