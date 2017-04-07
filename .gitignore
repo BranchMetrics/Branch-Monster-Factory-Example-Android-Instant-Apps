@@ -1,0 +1,20 @@
+
+.idea
+*.iml
+local.properties
+build/
+
+# Gradle
+.gradle/*
+.metadata/*
+
+*.gen
+bin/
+gen/
+
+# Mac stuff
+*.DS_Store
+
+
+
+wh.properties

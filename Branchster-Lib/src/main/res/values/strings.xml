@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Branchster</string>
+    
+    <color name="white">#FFFFFF</color>
+
+    <string name="facebook_app_id">288726397999326</string>
+
+    <!-- Defaults -->
+    <string name="monster_name">Bingles Jingleheimer</string>
+
+    <!-- Loading Messages -->
+    <string-array name="loading_messages">
+        <item>Loading Branchster parts</item>
+        <item>Loading Branchster parts.</item>
+        <item>Loading Branchster parts..</item>
+        <item>Loading Branchster parts...</item>
+    </string-array>
+
+    <!-- Description Array -->
+    <string-array name="description_array">
+        <item>%@ is a social butterfly. She’s a loyal friend, ready to give you a piggyback ride at a moments notice or greet you with a face lick and wiggle.</item>
+        <item>Creative and contagiously happy, %@ has boundless energy and an appetite for learning about new things. He is vivacious and popular, and is always ready for the next adventure.</item>
+        <item>%@ prefers to work alone and is impatient with hierarchies and politics.  Although he’s not particularly social, he has a razor sharp wit (and claws), and is actually very fun to be around.</item>
+        <item>Independent and ferocious, %@ experiences life at 100 mph. Not interested in maintaining order, he is a fierce individual who is highly effective, successful, and incredibly powerful.</item>
+        <item>Peaceful, shy, and easygoing, %@ takes things at his own pace and lives moment to moment. She is considerate, pleasant, caring, and introspective. She’s a bit nerdy and quiet -- but that’s why everyone loves him.</item>
+    </string-array>
+
+    <string name="branch_info_first_paragraph">This app showcases one feature of Branch links: content sharing. Branch content sharing drives conversions by taking users to the right page with every link click - even users who have to download your app are automatically taken to that page inside the app after install.</string>
+    <string name="branch_info_second_paragraph">Branch link technology is the foundation of our free, powerful linking and tracking platform that offers install attribution, user referral programs, content sharing, download banners and more to drive app engagement and growth. Sign up and see what you can build!</string>
+    <string name="version_name">Version %s</string>
+</resources>

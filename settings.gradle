@@ -1,0 +1,1 @@
+include ':Branchster-Lib', ':branchster-apk', ':branchster-atom', ':branchster-instantapp'

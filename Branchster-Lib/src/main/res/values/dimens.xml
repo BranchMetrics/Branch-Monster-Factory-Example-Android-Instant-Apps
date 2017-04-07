@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- This defines the height of the branchster window in the middle of the monster creator. -->
+    <dimen name="branchster_container_height">330dp</dimen>
+    <dimen name="branchster_width">200dp</dimen>
+    <dimen name="branchster_height">270dp</dimen>
+    <dimen name="name_font_size">24sp</dimen>
+    <dimen name="description_font_size">14sp</dimen>
+
+    <!-- Colour selector -->
+    <dimen name="selector_tub_padding">6dp</dimen>
+    <dimen name="radio_button_padding">3dp</dimen>
+
+</resources>
