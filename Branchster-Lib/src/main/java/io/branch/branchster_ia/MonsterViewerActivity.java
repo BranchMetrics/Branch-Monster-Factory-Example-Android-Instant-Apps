@@ -1,12 +1,13 @@
 package io.branch.branchster_ia;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+//import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -23,7 +24,7 @@ import io.branch.referral.util.AppInstallerView;
 import io.branch.referral.util.LinkProperties;
 import io.branch.referral.util.ShareSheetStyle;
 
-public class MonsterViewerActivity extends FragmentActivity implements InfoFragment.OnFragmentInteractionListener {
+public class MonsterViewerActivity extends Activity implements InfoFragment.OnFragmentInteractionListener {
 
     private static String TAG = MonsterViewerActivity.class.getSimpleName();
     public static final String MY_MONSTER_OBJ_KEY = "my_monster_obj_key";

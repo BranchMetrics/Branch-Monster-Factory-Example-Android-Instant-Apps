@@ -20,22 +20,6 @@
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"/>
 
-    <ImageView
-        android:visibility="invisible"
-        android:id="@+id/imgBranchLogo"
-        android:layout_width="160dp"
-        android:layout_height="55dp"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/branch250" />
-
-    <ImageView
-        android:visibility="invisible"
-        android:id="@+id/imgBranchster"
-        android:layout_width="240dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginLeft="80dp"
-        android:src="@drawable/branchster" />
 
     <TextView
         android:visibility="invisible"

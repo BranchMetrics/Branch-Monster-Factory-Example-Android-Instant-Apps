@@ -16,9 +16,9 @@ import io.branch.referral.Branch;
 import io.branch.referral.BranchError;
 import io.branch.referral.util.LinkProperties;
 
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
-import com.facebook.applinks.AppLinkData;
+//import com.facebook.FacebookSdk;
+//import com.facebook.appevents.AppEventsLogger;
+//import com.facebook.applinks.AppLinkData;
 
 public class SplashActivity extends Activity {
 
