@@ -42,7 +42,7 @@ public class MonsterViewerActivity extends Activity implements InfoFragment.OnFr
 
     private void initUI(){
         
-        ((AppInstallerView)findViewById(R.id.app_installer_btn)).setPackageName("io.branch.branchster");
+        ((AppInstallerView)findViewById(R.id.app_installer_btn)).setPackageName("io.branch.branchster_apk");
         monsterImageView_ = (MonsterImageView) findViewById(R.id.monster_img_view);
         if (Branch.getInstance().isAutoDeepLinkLaunch(this)) {
             MonsterPreferences pref = MonsterPreferences.getInstance(this);
