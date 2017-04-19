@@ -1,4 +1,4 @@
-<manifest package="io.branch.branchster_atom"
+<manifest package="io.branch.branchster"
           xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:instant="http://schemas.android.com/instantapps">
 

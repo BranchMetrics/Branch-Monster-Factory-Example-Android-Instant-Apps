@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:instant="http://schemas.android.com/instantapps"
-          package="io.branch.branchster_ia"
+          package="io.branch.branchsterlib"
           android:versionCode="20"
           android:versionName="1.4.0" >
 
@@ -17,10 +17,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:name=".BranchsterAndroidApplication"
+        android:name="io.branch.branchsterlib.BranchsterAndroidApplication"
         >
         <activity
-            android:name="io.branch.branchster_ia.SplashActivity"
+            android:name="io.branch.branchsterlib.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Transparent"
@@ -51,7 +51,7 @@
         </activity>
 
         <activity
-            android:name="io.branch.branchster_ia.MonsterViewerActivity"
+            android:name="io.branch.branchsterlib.MonsterViewerActivity"
             android:theme="@style/Theme.Default"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait">
@@ -59,7 +59,7 @@
             <meta-data android:name="io.branch.sdk.auto_link_request_code" android:value="@integer/AutoDeeplinkRequestCode" />
         </activity>
         <activity
-            android:name="io.branch.branchster_ia.MonsterCreatorActivity"
+            android:name="io.branch.branchsterlib.MonsterCreatorActivity"
             android:theme="@style/Theme.Default"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait">

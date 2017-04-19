@@ -1,11 +1,11 @@
-package io.branch.branchster_ia.util;
+package io.branch.branchsterlib.util;
 
 import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import io.branch.branchster_ia.R;
+import io.branch.branchsterlib.R;
 
 /**
  * An easy wrapper class for handling color picker functionality for monster views

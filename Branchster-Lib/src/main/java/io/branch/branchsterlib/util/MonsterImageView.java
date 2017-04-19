@@ -1,4 +1,4 @@
-package io.branch.branchster_ia.util;
+package io.branch.branchsterlib.util;
 
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import java.util.HashMap;
 
-import io.branch.branchster_ia.R;
+import io.branch.branchsterlib.R;
 import io.branch.indexing.BranchUniversalObject;
 
 

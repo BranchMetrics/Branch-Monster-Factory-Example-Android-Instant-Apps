@@ -63,7 +63,7 @@
         android:paddingLeft="34dp"
         android:layout_height="@dimen/branchster_container_height">
 
-        <io.branch.branchster_ia.util.MonsterImageView
+        <io.branch.branchsterlib.util.MonsterImageView
             android:id="@+id/monster_img_view"
             android:layout_width="200dp"
             android:layout_height="270dp"
@@ -104,7 +104,7 @@
             android:background="@null"
             android:layout_gravity="center"/>
 
-        <io.branch.referral.util.AppInstallerView
+        <TextView
             android:id="@+id/app_installer_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

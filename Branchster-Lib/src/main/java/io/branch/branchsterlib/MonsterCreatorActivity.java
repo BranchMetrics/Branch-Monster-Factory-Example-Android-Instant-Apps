@@ -1,4 +1,4 @@
-package io.branch.branchster_ia;
+package io.branch.branchsterlib;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import io.branch.branchster_ia.util.ColorController;
-import io.branch.branchster_ia.util.MonsterImageView;
-import io.branch.branchster_ia.util.MonsterPreferences;
+import io.branch.branchsterlib.util.ColorController;
+import io.branch.branchsterlib.util.MonsterImageView;
+import io.branch.branchsterlib.util.MonsterPreferences;
 import io.branch.indexing.BranchUniversalObject;
 
 /**

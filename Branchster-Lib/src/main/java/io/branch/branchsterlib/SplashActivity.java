@@ -1,4 +1,4 @@
-package io.branch.branchster_ia;
+package io.branch.branchsterlib;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import io.branch.branchster_ia.util.MonsterPreferences;
+import io.branch.branchsterlib.util.MonsterPreferences;
 import io.branch.indexing.BranchUniversalObject;
 import io.branch.referral.Branch;
 import io.branch.referral.BranchError;

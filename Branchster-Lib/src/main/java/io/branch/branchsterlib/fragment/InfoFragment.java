@@ -1,4 +1,4 @@
-package io.branch.branchster_ia.fragment;
+package io.branch.branchsterlib.fragment;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import io.branch.branchster_ia.R;
+import io.branch.branchsterlib.R;
 
 /**
  * @author sahilverma
