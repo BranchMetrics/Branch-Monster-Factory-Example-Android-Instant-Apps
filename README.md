@@ -44,6 +44,57 @@ Add Branch initSession in Activities which are configured to open from a link cl
     }
 ```
 
+### Full App conversion with deep linking
+Branch SDK provides convenient methods to check for app types and full app conversion. This eliminates the need of having
+Google IA support SDK ('com.google.android.instantapp'). Here are some of the methods that makes life easy
+
+      1) Branch#isInstantApp()
+      This methods checks whether the current version of app running is Instant app or Full app
+      
+      2)Branch#showInstallPrompt() 
+      This methods shows an install prompt for the full app. This method will pass referrer info to the full app when it is installed.
+      The full app will receive the same deep link params as the instant app.
+  
+
+Follow below step to add full app conversion with deferred deep linking support for your application
+#### 1.Show Install Prompt
+```
+ if (Branch.isInstantApp(this)) {
+            myFullAppInstallButton.setVisibility(View.VISIBLE);
+            myFullAppInstallButton.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Branch.showInstallPrompt(myActivity, activity_ret_code);
+                }
+            });
+        } else {
+            myFullAppInstallButton.setVisibility(View.GONE);
+        }       
+```
+
+#### 2. Add INSTALL_REFERRER
+The referrer information is passed through play-store install referrer. So please add the following intent filter to your manifest
+```
+<receiver android:name="io.branch.referral.InstallListener" android:exported="true">
+    <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+    </intent-filter>
+</receiver>
+```
+If you are using custom install referrer please consider extending your receiver class with {@link io.branch.referral.InstallListener}
+
+NOTE: Since install referrer broadcast from google play is few millisecond delayed, We recommend to call `Branch#enablePlayStoreReferrer(delay)` from `Application#onCreate()` method for
+more accurate tracking and attribution. This will delay Branch init only the first time user open the app. Recommended delay is 1500ms to capture more than 90% of the install referrer 
+cases per our testing as of 4/2017
+```
+public class MyApplication extends Application {
+    public void onCreate() {
+        super.onCreate();
+        Branch.enablePlayStoreReferrer(1500L);
+        Branch.getAutoInstance(this);
+    }
+}
+```
 ## Building and Testing
 1) Configure your device and tools to support Instant apps. Please follow the [Instant App guide from Google](https://developers.google.com/android/confidential/instant-apps/setup)
 
