@@ -102,7 +102,7 @@ public class MyApplication extends Application {
     `./gradlew clean :branchster-instantapp:assembleDebug`
     
 3) Execute the following command to run the Instant App (Make sure you have not installed the Branch Monster Factory app)
-    `wh run -i branchster-instantapp/build/outputs/apk/branchster-instantapp-debug.zip -u https://bnc.lt/ALMc/ntzqudJf8B`
+    `wh run -i branchster-instantapp/build/outputs/apk/branchster-instantapp-debug.zip -u https://branchster.app.link/3B8saD4SSC`
    Where the `https://bnc.lt/ALMc/ntzqudJf8B` is the link used to simulate link click. You can change this link with any other link created from Branch Monster Factory application to test deeplinking with Instant Apps  
 
 4) Just `Run` the `Branchster-apk` project from Android Studio to run the full application.
