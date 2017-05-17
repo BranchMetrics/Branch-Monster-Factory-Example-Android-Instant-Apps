@@ -4,8 +4,6 @@ Branchster Android (Instant App Enabled)
 
 This is a replica of [Branch Monster Factory](https://github.com/BranchMetrics/Branch-Example-Deep-Linking-Branchster-Android) project with Android Instant App support. This shows how easy it is to add Branch SDK to your Instant App supported Android app
 
-### Integrate Branch SDK
-
 **1. Initialize the Branch SDK**
 
 Head to your _core library project_, where your Application class is defined and drop in the snippet of code to the onCreate() method as follows. If you plan on deep linking from your Android Instant App to your full Android app after its installed, you'll need to add the line `enablePlayStoreReferrer`. This adds a delay to the initialization to wait for the Google Play Referrer, which can take up to a second.
