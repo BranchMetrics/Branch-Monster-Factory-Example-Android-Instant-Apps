@@ -70,15 +70,15 @@ Now, you simply need to edit the above manifest and paste in the following snipp
 Add Branch initSession in Activities which are configured to open from a link click in order to receive the deep link params. This will return the deep link data from the referring link.
 
 ```
-  protected void onStart() {
-        super.onStart();
-        Branch.getInstance().initSession(new Branch.BranchReferralInitListener() {
-            @Override
-            public void onInitFinished(JSONObject referringParams, BranchError error) {
-                Log.d("BranchSDK","onInitFinished()" +referringParams);
-            }
-        });
+protected void onStart() {
+  super.onStart();
+  Branch.getInstance().initSession(new Branch.BranchReferralInitListener() {
+    @Override
+    public void onInitFinished(JSONObject referringParams, BranchError error) {
+      Log.d("Branch","onInitFinished() with deep link data: " + referringParams);
     }
+  });
+}
 ```
 **5. Configure the deep linking from Instant App to your Full App**
 
