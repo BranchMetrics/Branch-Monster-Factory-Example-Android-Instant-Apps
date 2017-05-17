@@ -69,7 +69,7 @@ Now, you simply need to edit the above manifest and paste in the following snipp
 
 Add Branch initSession in Activities which are configured to open from a link click in order to receive the deep link params. This will return the deep link data from the referring link.
 
-```
+```java
 protected void onStart() {
   super.onStart();
   Branch.getInstance().initSession(new Branch.BranchReferralInitListener() {
